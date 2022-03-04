@@ -1,0 +1,38 @@
+.bg-primary-color {
+    background-color: #fff;
+}
+
+.primary-color {
+    color: #000;
+}
+
+#navbar a:hover {
+    color: #2d2d2d;
+}
+
+#navbar a.active {
+    position: relative;
+}
+
+#navbar a.active:before{
+    width: 45%;
+    border-top: 1px solid #000;
+    content: "";
+    position: absolute;
+    bottom: 0.3rem;
+}
+
+.navbar-brand img {
+    width: 55px;
+}
+
+.navbar-brand span {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
