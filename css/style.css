@@ -6,6 +6,11 @@
     color: #000;
 }
 
+.secondary-color{
+    color: #fff;
+}
+
+/* Menu */
 #navbar a:hover {
     color: #2d2d2d;
 }
@@ -29,10 +34,72 @@
 .navbar-brand span {
     font-weight: 500;
     font-size: 1em;
+    margin-left: -0.3em;
 }
 
 #navbar-items .navbar-nav {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+}
+
+/* Capa */
+#cover-background {
+    background-image: url(../img/fundoHomePB.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 15px 0px 5px 0px;
+}
+
+#content-cover article {
+    margin-top: 15px;
+}
+
+#content-cover span {
+    font-size: 1.1em;
+}
+
+#content-cover a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+#content-cover a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+#text-cover{
+    text-align: justify;
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+#down{
+    width: 100%;
+    text-align: center;   
+}
+
+
+@keyframes bi-chevron-compact-down{
+    0% { opacity: 1;}
+    50% { opacity: 0.5;}
+    100% { opacity: 0;}
+}
+
+.bi-chevron-compact-down{
+   -webkit-animation: bi-chevron-compact-down 4s linear infinite;
+   -moz-animation: bi-chevron-compact-down 4s linear infinite;
+   -ms-animation: bi-chevron-compact-down 4s linear infinite;
+   -o-animation: bi-chevron-compact-down 4s linear infinite;
+   animation: bi-chevron-compact-down 4s linear infinite;
+}
+
+@media (min-width: 768px){
+    #content-cover article {
+        height: auto;
+        margin: auto;
+    }
 }
