@@ -61,6 +61,10 @@
     font-size: 1.1em;
 }
 
+#content-cover h2 {
+    font-weight: bolder;
+}
+
 #content-cover a {
     text-decoration: none;
     color: #fff;
@@ -97,9 +101,135 @@
    animation: bi-chevron-compact-down 4s linear infinite;
 }
 
+
+/* Slide */
+
+#slide-title {
+    margin-top: 30px;
+}
+
+#slide-title span{
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+#slide-title h2{
+    font-weight: bolder;
+    margin: 15px 0px 15px 0px;
+}
+
+#slider-container {
+    margin-top: 30px;
+}
+
+.carousel-caption {
+    margin: 0;
+    height: 90%;
+}
+
+#carousel{
+    filter: grayscale(1);
+}
+
+#carousel:hover {
+    filter: grayscale(0);   
+}
+
+.project-details {
+    visibility: hidden;
+}
+
+#carousel:hover .project-details{
+    visibility: visible;
+}
+
+#carousel:hover img {
+    opacity: .7;
+}
+
+.project-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-details span {
+    font-size: .9em;
+}
+
+.project-details h2 {
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.project-details h3 {
+    font-size: .9em;
+}
+
+.project-details a {
+    text-decoration: none;
+}
+
+.project-details a:hover{
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.technologies i{
+    color: #000;
+    font-size: 1.2em;
+}
+
+.carousel-control-prev i, .carousel-control-next i{
+    color: #000;
+    font-size: 3em;
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 8px;
+    width: 8px;
+    border-radius: 80%;
+    background-color: #222;
+    opacity: 0.8;
+}
+
+.carousel-indicators .active{
+    background-color: #000;
+}
+
 @media (min-width: 768px){
+    /* Capa */
     #content-cover article {
         height: auto;
         margin: auto;
+    }
+
+    /* Slide */
+    .project-details span {
+        font-size: 2em;
+    }
+
+    .project-details h2 {
+        font-size: 4em;
+    }
+
+    .project-details h3 {
+        margin-top: 30px;
+        font-size: 2em;
+    }
+    
+    .project-details a {
+        margin-top: 15px;
+        font-size: 1.5em;
+    }
+
+    .technologies i{
+        font-size: 2em;
+    }
+
+    .carousel-indicators [data-bs-target]{
+        height: 20px;
+        width: 20px;
+        border-radius: 100%;
     }
 }
