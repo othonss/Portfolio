@@ -197,6 +197,61 @@
     background-color: #000;
 }
 
+/* Footer */
+
+footer{
+    background-color: #F5EEEE;
+    margin-top: 30px;
+}
+
+footer img {
+    width: 40px;
+}
+
+footer h6 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+#footer-top{
+    padding-top: 15px;
+}
+
+#icons {
+    margin-top: 15px;
+}
+
+#footer-icons i{
+    font-size: 25px;
+    color: #000;
+    margin-right: 15px;
+}
+
+#footer-logo {
+    font-weight: 500;
+    font-size: 1em;
+    margin-left: -0.3em;
+}
+
+footer p {
+    margin: 10px 0px 0px 0px;
+    text-align: justify;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer a:hover{
+    color: #2d2d2d;
+}
+
+#copy {
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
 @media (min-width: 768px){
     /* Capa */
     #content-cover article {
@@ -232,4 +287,32 @@
         width: 20px;
         border-radius: 100%;
     }
+    
+    /* Footer */
+
+    footer img {
+        width: 55px;
+    }
+
+    footer h6 {
+        font-size: 1.5em;
+        margin-top: 15px;
+    }
+
+    footer p {
+        width: 400px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    #footer-logo{
+        font-weight: 600;
+        font-size: 1em;
+        margin-left: -0.3em;
+    }
+    
+    #footer-icons i{
+        font-size: 30px;
+        margin-right: 15px;
+    }
+
 }
