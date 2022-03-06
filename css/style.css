@@ -303,6 +303,85 @@
     padding-bottom: 50px;
     height: 25vh;
 }
+
+/* Sobre */
+#title-about {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#title-about span {
+    font-size: 1.2em;
+}
+
+#title-about h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#title-about p {
+    margin: 0 auto;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#about-img .carousel-item{
+   height: auto;
+}
+
+#knowledge h3 {
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+#interest{
+   margin-top: 30px;
+   text-align: center;
+}
+
+#interest span {
+font-size: 1.1em;
+text-transform: uppercase;
+}
+
+#interest a {
+   text-decoration: none;
+   color: #000;
+}
+
+#interest a:hover{
+   border-bottom: 1px solid #000;
+}
+
+/* Contato */
+section iframe {
+    filter: grayscale(0.7);
+    margin-bottom: 15px;
+}
+
+textarea{
+    resize: none;
+    height: 85px;
+}
+
+label{
+    font-weight: 600;
+    font-size: .8em;
+}
+
+form{
+    margin-top: 15px;
+}
+
+#title-contact{
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+button{
+    border-bottom: 1px solid #000;
+}
+
 /* Footer */
 
 footer{
@@ -423,36 +502,16 @@ footer a:hover{
     }
 
     /* Sobre */
-    #title-about {
-        text-align: center;
-        margin-top: 30px;
-    }
-
-    #title-about span {
-        font-size: 1.2em;
-    }
-
-    #title-about h2 {
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-
     #title-about p {
-        margin: 0 auto;
-        font-size: 1.2em;
         text-align: center;
-        width: 80%;
+        width: 90%;
+    }
+   
+    /* Contato */
+    section iframe {
+        height: 390px;
     }
 
-   #about-img .carousel-item{
-       height: auto;
-   }
-
-   #knowledge h3 {
-       margin-top: 15px;
-       margin-bottom: 15px;
-   }
-   
     /* Footer */
 
     footer img {
