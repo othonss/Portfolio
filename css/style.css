@@ -434,21 +434,25 @@ footer a:hover{
 
     #title-about h2 {
         margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #title-about p {
+        margin: 0 auto;
+        font-size: 1.2em;
+        text-align: center;
+        width: 80%;
     }
 
    #about-img .carousel-item{
        height: auto;
    }
 
-   figure {
-    font-style: italic;
+   #knowledge h3 {
+       margin-top: 15px;
+       margin-bottom: 15px;
    }
-
-   figure a {
-       color: #000;
-   }
-  
-
+   
     /* Footer */
 
     footer img {
