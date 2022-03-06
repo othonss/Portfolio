@@ -10,6 +10,18 @@
     color: #fff;
 }
 
+.html-color{
+    color: #dc3d1c !important;
+}
+
+.css-color{
+    color: #0062b0 !important; 
+}
+
+.bootstrap-color {
+    color: #5e00f5 !important;
+}
+
 /* Menu */
 #navbar a:hover {
     color: #2d2d2d;
@@ -118,6 +130,10 @@
     margin: 15px 0px 15px 0px;
 }
 
+#slide-title p {
+    text-align: justify;
+}
+
 #slider-container {
     margin-top: 30px;
 }
@@ -197,6 +213,72 @@
     background-color: #000;
 }
 
+/* Projetos */
+
+.projects {
+    margin-top: 30px;
+}
+
+.category {
+    margin: 30px 0 15px 0;
+    font-weight: bolder;
+}
+
+.projects hr {
+    margin: 3px 0 15px 0;
+}
+
+.projects-titles {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.project-information i{
+    text-align: end;
+    font-size: 1.1em;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.project-text {
+    margin-top: 30px;
+}
+
+.project-text p{
+    text-align: justify;
+}
+
+.project-text h3 {
+    margin: 15px 0 15px 0;
+}
+
+.project-text a {
+    text-decoration: none;
+    color:#000;
+    font-size: 1.2em;
+}
+
+.project-text a:hover {
+    color:#2d2d2d;
+}
+
+.project-text .technologies i {
+    margin-right: 15px;
+    font-size: 2.5em !important;
+}
+
+.project-text a i{
+    font-size: 2em !important;
+    margin-right: 5px;
+}
+
+.project-text span{
+    margin-right: 5px;
+}
 /* Footer */
 
 footer{
@@ -288,6 +370,12 @@ footer a:hover{
         border-radius: 100%;
     }
     
+    .carousel-incators-projects [data-bs-target] {
+        height: 12px;
+        width: 12px;
+        border-radius: 100%;
+    }  
+
     /* Footer */
 
     footer img {
