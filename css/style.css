@@ -32,6 +32,29 @@
     color: #7175aa !important;
 }
 
+/* Animação da página */
+[data-anime]{
+    opacity: 0;
+    transition: .7s;
+}
+
+[data-anime="left"]{
+    transform: translate3d(-50px, 0px, 0px);
+}
+
+[data-anime="right"]{
+    transform: translate3d(50px, 0px, 0px);
+}
+
+[data-anime="top"]{
+    transform: translate3d(0px, -50px, 0px);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
 /* Menu */
 #navbar a:hover {
     color: #2d2d2d;

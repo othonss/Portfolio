@@ -1,3 +1,5 @@
+//Lógica Página projeto
+
 var moreInformationFinans = document.getElementById("more-information-finans")
 var finansContent = document.getElementById("finans-content")
 moreInformationFinans.addEventListener("click", function(){ 
@@ -51,3 +53,5 @@ var othonContent = document.getElementById("othon-content")
 moreInformationOthon.addEventListener("click", function(){ 
     othonContent.classList.toggle("hide")
 })
+
+
