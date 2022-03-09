@@ -13,7 +13,7 @@
   O site contém projetos envolvendo conteúdos sobre posicionamentos de elementos, layouts fixos, líquidos e reponsivos, com CSS Grid e Flexbox e também com o framework Bootstrap.
 </p>
 <p>
-    Contém também projetos envolvendo Javascript e backend com PHP e MySQL. Projetos que por tua vez foram essenciais para complementar meus estudos com desenvolvimento web.
+    Contém também projetos envolvendo Javascript e backend com PHP e MySQL. Projetos que por sua vez foram essenciais para complementar meus estudos com desenvolvimento web.
 </p>
 
 <p>
