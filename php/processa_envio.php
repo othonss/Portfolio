@@ -1,4 +1,5 @@
 <?php
+    //Rever sobre o copy
     //Importando scripts do PHPMailer
     require "./bibliotecas/PHPMailer/Exception.php";
     require "./bibliotecas/PHPMailer/OAuth.php";
