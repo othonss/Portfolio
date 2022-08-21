@@ -70,8 +70,10 @@
 - HTML
 - CSS 
 - Javascript
-- PHP
 - Bootstrap
+
+## Back-end
+- PHP
 - PHPMailer
 
 ### Competências 
