@@ -1,5 +1,4 @@
 <?php
-    //Rever sobre o copy
     //Importando scripts do PHPMailer
     require "./bibliotecas/PHPMailer/Exception.php";
     require "./bibliotecas/PHPMailer/OAuth.php";
@@ -12,7 +11,7 @@
     use PHPMailer\PHPMailer\SMTP;
 
     class Mensagem {
-        private $para = 'exemple@example.com';
+        private $para = 'exemplo@gmail.com';
         private $nome = null;
         private $assunto = null;
         private $mensagem = null;
@@ -48,8 +47,8 @@
 
     <?php ob_start() ?>
         <script>
-            alert('Por favor preencha todos os campos!');
-            window.location.replace("../contato.html");
+            alert('Por favor preencha todos os campos!')
+            window.location.replace("../contato.html")
         </script>
     <?php 
     $buffer_js = ob_get_clean();
@@ -67,12 +66,12 @@
             $mail->isSMTP();                                            
             $mail->Host       = 'smtp.gmail.com';                    
             $mail->SMTPAuth   = true;                                  
-            $mail->Username   = 'exemple@example.com';                    
-            $mail->Password   = 'yourpassword';                               
+            $mail->Username   = 'exemplo@gmail.com';                    
+            $mail->Password   = 'senhaexemplo';                               
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         
             $mail->Port       = 587;                                    
 
-            $mail->setFrom('exemple@example.com', 'Mensagem vinda do meu site');
+            $mail->setFrom('mensagem', 'Mensagem vinda do meu site');
             $mail->addAddress($mensagem->__get('para'));     
             $mail->isHTML(true);                                  
             $mail->Subject = $mensagem->__get('assunto');
@@ -82,9 +81,10 @@
 ?>
             <?php ob_start() ?>
             <script>
-                alert('Mensagem recebida, obrigado!');
-                window.location.replace("../contato.html");
+                alert("Mensagem recebida")
+                window.location.replace("../contato.html")
             </script>
+            
             <?php 
             $buffer_js = ob_get_clean();
                 var_dump($buffer_js);

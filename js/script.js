@@ -1,5 +1,11 @@
 //Lógica Página projeto
 
+var moreInformationElectrum = document.getElementById("more-information-electrum")
+var electrumContent = document.getElementById("electrum-content")
+moreInformationElectrum.addEventListener("click", function(){ 
+    electrumContent.classList.toggle("hide")
+})
+
 var moreInformationFinans = document.getElementById("more-information-finans")
 var finansContent = document.getElementById("finans-content")
 moreInformationFinans.addEventListener("click", function(){ 

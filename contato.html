@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Um portfólio com trabalhos acadêmicos e ideias pessoais.">
-        <meta name="keywords" content="Portfólio, Othon Santos, HTML, CSS, JavaScript, Bootstrap, PHP, MySQL, Front-end, Back-end"> 
+        <meta name="keywords" content="Portfólio, Othon Santos, HTML, CSS, JavaScript, Bootstrap, PHP, MySQL, SASS, Front-end, Back-end"> 
         <meta name="robots" content="index, follow">
         <meta name="author" content="Othon Santos da Silva">
         <title>Contato | Othon Santos</title>
@@ -56,46 +56,46 @@
         </header>
         <section class="col-12 col-md-12 container">
             <div class="row">
-                <section class="col-12 col-md-5" data-anime="top">
+                <section class="col-12 col-md-5">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117116.88309542513!2d-46.40393864329661!3d-23.46397768900867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7c928fd7510d%3A0x45e2e8f415e0b432!2sItaquaquecetuba%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1646604769675!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" class="w-100"></iframe>
                 </section>
                 <section class="col-12 col-md-7">
-                    <span id="title-contact" data-anime="top">Quer tirar alguma dúvida ou me contratar? Mande-me uma mensagem ou entre em contato através das redes sociais ou telefone.</span>
+                    <span id="title-contact">Quer tirar alguma dúvida ou me contratar? Mande-me uma mensagem ou entre em contato através das redes sociais ou telefone.</span>
                     <form action="./php/processa_envio.php" method="POST">
-                        <div class="form-group" data-anime="top">
+                        <div class="form-group">
                             <label for="nome">Seu nome *</label>
                             <input type="text" name="nome" class="form-control" id="name" placeholder="Digite seu nome">
                         </div>
-                        <div class="form-group" data-anime="top">
+                        <div class="form-group">
                             <label for="email">Seu e-mail *</label>
                             <input type="email" name="email" class="form-control" id="email" placeholder="Digite seu e-mail">
                         </div>
-                        <div class="form-group" data-anime="top">
+                        <div class="form-group">
                             <label for="assunto">Assunto *</label>
                             <input type="text" name="assunto" class="form-control" id="assunto" placeholder="Sobre o que conversaremos?">
                         </div>
-                        <div class="form-group" data-anime="top">
+                        <div class="form-group">
                             <label for="mensagem">Mensagem *</label>
                             <textarea name="mensagem" class="form-control w-100" id="mensagem" placeholder="Me mande uma mensagem"></textarea>
                         </div>
-                        <button type="submit" class="btn">Enviar mensagem<i class="bi bi-envelope-check" style="margin-left: 15px;"></i></button>
+                        <button type="submit" class="btn" id="mensagem">Enviar mensagem<i class="bi bi-envelope-check" style="margin-left: 15px;"></i></button>
                     </form>
                 </section>
             </div>
         </section>
         
-        <footer class="container-fluid" data-anime="top">
+        <footer class="container-fluid">
             <div class="container col-12">
                 <div class="row" id="footer-top">
                     <div class="col-12 col-md-9">
                         <img src="img/logo.png" alt="Othon Santos Logotipo">
                         <span id="footer-logo">Othon Santos</span>
-                        <h6 data-anime="top">Informações de contato</h6>
-                        <p data-anime="top">
+                        <h6>Informações de contato</h6>
+                        <p>
                             Pode estar entrando em contato comigo através das redes socias ou no meu e-mail e número de celular.
                         </p>
-                        <p data-anime="top">E-mail: othon.santos.silva@gmail.com</p>
-                        <p data-anime="top">Celular: +55 11 96300-0359</p>
+                        <p>E-mail: othon.santos.silva@gmail.com</p>
+                        <p>Celular: +55 11 96300-0359</p>
                     </div>
                     <span class="col-12 col-md-3" id="icons">
                         <span id="footer-icons">
@@ -104,18 +104,17 @@
                             <a href="https://www.instagram.com/nohcode/" target="_blank"><i class="bi bi-instagram"></i></a>
                             <a href="https://twitter.com/Othon51084010" target="_blank"><i class="bi bi-twitter"></i></a>
                         </span> 
-                        <h6 data-anime="top">Últimos projetos</h6>
+                        <h6>Últimos projetos</h6>
+                        <a href="https://othonss.github.io/Projeto-Electrum-sass/" target="_blank">Projeto Electrum</a><br>
                         <a href="http://projetotarefas.infinityfreeapp.com/" target="_blank">Projeto Tarefas</a><br>
                         <a href="https://othonss.github.io/Projeto-iMovi/" target="_blank">Projeto iMovi</a><br>
-                        <a href="https://othonss.github.io/Portfolio-Othon/projetos/finans/finans.html" target="_blank">Projeto Finas</a><br>
                         <a href="https://othonss.github.io/Portfolio-Othon/projetos/spotify/spotify.html" target="_blank">Projeto Spotify</a><br>
                         <a href="https://othonss.github.io/Projeto-mata-mosquito/" target="_blank">Jogo Mata Mosquito</a><br>
-                        <a href="projetos.html" data-anime="top">Todos os projetos</a>
+                        <a href="projetos.html">Todos os projetos</a>
                     </span>
                 </div>
                 <div class="row">
-                    <span id="copy">&copy 2022 Othon Santos</span>
-                    <!-- Rever sobre o copy -->
+                    <span id="copy">Othon Santos da Silva 2022</span>
                 </div>
             </div>
         </footer>
