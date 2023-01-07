@@ -105,9 +105,9 @@ Copiar para dentro da pasta htdocs (caso XAMPP)
 ## Front-end
 Pré-requisitos: Navegador
 
-Editar com IDE ou Editor de preferência
+Editar com IDE ou Editor de preferência.
 
-Acessar utilizando navegador de preferência
+Acessar utilizando navegador de preferência.
 
 ## Autor 
 
