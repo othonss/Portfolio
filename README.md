@@ -1,3 +1,13 @@
+# Portfólio
+
+| :placard: Vitrine.Dev | Othon Santos da Silva |
+| -------------  | --- |
+| :sparkles: Name        | **Portfólio**
+| :label: Technologies | HTML, CSS, PHP, JavaScript, Bootstrap e PHPMailer
+| :bulb: Skills        | Posicionamento de elementos, Animações, Layout Resposivo e POO
+| :rocket: URL         | https://othonss.epizy.com/
+
+![](https://raw.githubusercontent.com/othonss/Portfolio/main/layout/desk1.png#vitrinedev)
 # Portfólio 
 <p>
   Um site portfólio para demonstrar meus conhecimentos e interesses na área de desenvolvimento, desenvolvido por mim com HTML5, CSS3, JavaScrit, Bootstrap, PHP e PHPMailer.
@@ -61,29 +71,6 @@
 
 ### Página de contato
 <img src="layout/mob8.png" width="300"/>
-
-
-## Tecnologias utilizadas
-<p>Linguagens e padrões que foram utilizados para desenvolver o app</p>
-
-## Front-end
-- HTML
-- CSS 
-- Javascript
-- Bootstrap
-
-## Back-end
-- PHP
-- PHPMailer
-
-### Competências 
-- Posicionamento de elementos
-- Animações
-- Layout responsivo 
-- Componentes do Bootstrap
-- Backend com PHP
-- Programação orientada a objetos
-- Uso da biblioteca PHPMailer para envio de e-mail 
 
 ## Como executar o projeto
 
